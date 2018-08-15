@@ -1,0 +1,61 @@
+[15:21:28.030]     INFO: *** Welcome to pxar ***
+[15:21:28.030]     INFO: *** Today: 2017/11/07
+[15:21:28.055]     INFO: *** Version: v2.7.6-26-g6176-dirty
+[15:21:28.055]     INFO: readRocDacs: ../../../testbeam/testbeam-configs/D4305/dacParameters_C0.dat .. ../../../testbeam/testbeam-configs/D4305/dacParameters_C15.dat
+[15:21:28.057]     INFO: readTbmDacs: ../../../testbeam/testbeam-configs/D4305/tbmParameters_C0a.dat .. ../../../testbeam/testbeam-configs/D4305/tbmParameters_C0b.dat
+[15:21:28.057]     INFO: readMaskFile: ../../../testbeam/testbeam-configs/D4305/defaultMaskFile.dat
+[15:21:28.057]     INFO: readTrimFile: ../../../testbeam/testbeam-configs/D4305/trimParameters_C0.dat .. ../../../testbeam/testbeam-configs/D4305/trimParameters_C15.dat
+[15:21:28.150]     INFO:         clk: 4
+[15:21:28.150]     INFO:         ctr: 4
+[15:21:28.150]     INFO:         sda: 19
+[15:21:28.150]     INFO:         tin: 9
+[15:21:28.150]     INFO:         level: 15
+[15:21:28.150]     INFO:         triggerdelay: 0
+[15:21:28.151]    QUIET: Instanciating API for pxar v2.7.6+26~g6176e73
+[15:21:28.151]     INFO: Log level: INFO
+[15:21:28.163]    QUIET: Connection to board DTB_WS6K9F opened.
+[15:21:28.166]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    76
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WS6K9F
+MAC address: 40D85511804C
+Hostname:    pixelDTB076
+Comment:     
+------------------------------------------------------
+[15:21:28.169]     INFO: RPC call hashes of host and DTB match: 447413373
+[15:21:28.000] CRITICAL: <hal.cc/setTestboardDelays:L164> _testboard->Deser400_SetPhaseAutoAll() not available in this firmware.
+[15:21:29.522]  WARNING: Pixel 49, 31 trim value 16 exceeds limit. Set to 15.
+[15:21:30.039]     INFO: DUT info: 
+[15:21:30.039]     INFO: The DUT currently contains the following objects:
+[15:21:30.040]     INFO:  2 TBM Cores tbm08c (2 ON)
+[15:21:30.040]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:21:30.040]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:21:30.040]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:21:30.040]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.040]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:30.041]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:21:33.838]     INFO: PixTestCmd::init()
+[15:21:33.946]     INFO: readGainPedestalParameters ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat .. ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C15.dat
+[15:21:33.946]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:21:34.135]     INFO: readReadbackCal: ../../../testbeam/testbeam-configs/D4305/readbackCal_C0.dat .. ../../../testbeam/testbeam-configs/D4305/readbackCal_C15.dat
+[15:21:34.136]     INFO: readGainPedestalParameters ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat .. ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C15.dat
+[15:21:34.136]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:21:34.287]     INFO: readGainPedestalParameters ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat .. ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C15.dat
+[15:21:34.288]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../../testbeam/testbeam-configs/D4305/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:21:43.722]    QUIET: Connection to board 76 closed.

@@ -1,0 +1,16 @@
+[12:04:03.114]     INFO: *** Welcome to pxar ***
+[12:04:03.114]     INFO: *** Today: 2017/11/09
+[12:04:03.123]     INFO: *** Version: v2.7.6-38-g63c3
+[12:04:03.123]     INFO: readRocDacs: ../../conf/D4305//dacParameters_C0.dat .. ../../conf/D4305//dacParameters_C15.dat
+[12:04:03.124]     INFO: readTbmDacs: ../../conf/D4305//tbmParameters_C0a.dat .. ../../conf/D4305//tbmParameters_C0b.dat
+[12:04:03.124]     INFO: readMaskFile: ../../conf/D4305//defaultMaskFile.dat
+[12:04:03.124]     INFO: readTrimFile: ../../conf/D4305//trimParameters_C0.dat .. ../../conf/D4305//trimParameters_C15.dat
+[12:04:03.157]     INFO:         clk: 4
+[12:04:03.157]     INFO:         ctr: 4
+[12:04:03.157]     INFO:         sda: 19
+[12:04:03.158]     INFO:         tin: 9
+[12:04:03.158]     INFO:         level: 15
+[12:04:03.158]     INFO:         triggerdelay: 0
+[12:04:03.158]    QUIET: Instanciating API for pxar v2.7.6+38~g63c3246
+[12:04:03.158]     INFO: Log level: INFO
+[12:04:03.158] CRITICAL: <hal.cc/FindDTB:L440> Could not find any connected DTB.

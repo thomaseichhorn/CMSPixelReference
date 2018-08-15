@@ -1,0 +1,118 @@
+[13:41:02.609]     INFO: *** Welcome to pxar ***
+[13:41:02.609]     INFO: *** Today: 2017/11/08
+[13:41:02.627]     INFO: *** Version: v2.7.6-38-g63c3
+[13:41:02.627]     INFO: readRocDacs: ../../conf/D4305//dacParameters_C0.dat .. ../../conf/D4305//dacParameters_C15.dat
+[13:41:02.628]     INFO: readTbmDacs: ../../conf/D4305//tbmParameters_C0a.dat .. ../../conf/D4305//tbmParameters_C0b.dat
+[13:41:02.628]     INFO: readMaskFile: ../../conf/D4305//defaultMaskFile.dat
+[13:41:02.628]     INFO: readTrimFile: ../../conf/D4305//trimParameters_C0.dat .. ../../conf/D4305//trimParameters_C15.dat
+[13:41:02.664]     INFO:         clk: 4
+[13:41:02.664]     INFO:         ctr: 4
+[13:41:02.664]     INFO:         sda: 19
+[13:41:02.664]     INFO:         tin: 9
+[13:41:02.664]     INFO:         level: 15
+[13:41:02.664]     INFO:         triggerdelay: 0
+[13:41:02.664]    QUIET: Instanciating API for pxar v2.7.6+38~g63c3246
+[13:41:02.664]     INFO: Log level: INFO
+[13:41:02.676]    QUIET: Connection to board DTB_WS65DL opened.
+[13:41:02.680]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    72
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WS65DL
+MAC address: 40D855118048
+Hostname:    pixelDTB072
+Comment:     
+------------------------------------------------------
+[13:41:02.683]     INFO: RPC call hashes of host and DTB match: 447413373
+[13:41:03.514] CRITICAL: <hal.cc/setTestboardDelays:L164> _testboard->Deser400_SetPhaseAutoAll() not available in this firmware.
+[13:41:03.819]  WARNING: Pixel 44, 58 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 47, 31 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 48, 30 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 48, 31 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 48, 32 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 49, 29 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 49, 30 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 49, 31 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 49, 32 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 50, 30 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 50, 31 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 50, 32 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 51, 29 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 51, 30 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 51, 31 trim value 16 exceeds limit. Set to 15.
+[13:41:03.819]  WARNING: Pixel 51, 32 trim value 16 exceeds limit. Set to 15.
+[13:41:04.337]     INFO: DUT info: 
+[13:41:04.337]     INFO: The DUT currently contains the following objects:
+[13:41:04.337]     INFO:  2 TBM Cores tbm08c (2 ON)
+[13:41:04.337]     INFO: 	TBM Core alpha (0): 7 registers set
+[13:41:04.337]     INFO: 	TBM Core beta  (1): 7 registers set
+[13:41:04.337]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[13:41:04.337]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.337]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:04.338]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:41:06.379]     INFO: PixTestCmd::init()
+[13:41:06.454]     INFO: readGainPedestalParameters ../../conf/D4305//phCalibrationFitErr_C0.dat .. ../../conf/D4305//phCalibrationFitErr_C15.dat
+[13:41:06.454]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../conf/D4305//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:41:06.560]     INFO: readReadbackCal: ../../conf/D4305//readbackCal_C0.dat .. ../../conf/D4305//readbackCal_C15.dat
+[13:41:06.561]     INFO: readGainPedestalParameters ../../conf/D4305//phCalibrationFitErr_C0.dat .. ../../conf/D4305//phCalibrationFitErr_C15.dat
+[13:41:06.561]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../conf/D4305//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:41:06.617]     INFO: readGainPedestalParameters ../../conf/D4305//phCalibrationFitErr_C0.dat .. ../../conf/D4305//phCalibrationFitErr_C15.dat
+[13:41:06.617]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open ../../conf/D4305//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:41:19.151]     INFO: ######################################################################
+[13:41:19.151]     INFO: PixTestAlive::doTest()
+[13:41:19.151]     INFO: ######################################################################
+[13:41:19.154]     INFO:    ----------------------------------------------------------------------
+[13:41:19.154]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4)
+[13:41:19.154]     INFO:    ----------------------------------------------------------------------
+[13:41:19.630]     INFO: Expecting 41600 events.
+[13:41:24.297] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:24.298] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:24.361]     INFO: 41600 events read in total (4011ms).
+[13:41:24.365]     INFO: Test took 5207ms.
+[13:41:24.793]     INFO: PixTestAlive::aliveTest() done
+[13:41:24.793]     INFO: number of dead pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[13:41:24.965]     INFO:    ----------------------------------------------------------------------
+[13:41:24.965]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4)
+[13:41:24.965]     INFO:    ----------------------------------------------------------------------
+[13:41:25.428]     INFO: Expecting 41600 events.
+[13:41:28.448] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:28.448] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:28.470]     INFO: 41600 events read in total (2326ms).
+[13:41:28.471]     INFO: Test took 3503ms.
+[13:41:28.471]     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[13:41:28.849]     INFO: PixTestAlive::maskTest() done
+[13:41:28.849]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[13:41:28.950]     INFO:    ----------------------------------------------------------------------
+[13:41:28.950]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4)
+[13:41:28.950]     INFO:    ----------------------------------------------------------------------
+[13:41:29.418]     INFO: Expecting 41600 events.
+[13:41:34.066] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:34.067] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:41:34.130]     INFO: 41600 events read in total (3995ms).
+[13:41:34.131]     INFO: Test took 5177ms.
+[13:41:34.519]     INFO: PixTestAlive::addressDecodingTest() done
+[13:41:34.520]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[13:41:34.520]     INFO: PixTestAlive::doTest() done, duration: 15 seconds
+[13:42:59.667]     INFO: PixTestDacDacScan: caldel[0, 255] vs. vthrcomp[0, 255] readouts, ntrig = 10, npixels = 1
+[13:42:59.805]     INFO: Expecting 655360 events.
+[13:43:19.538] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:43:19.539] CRITICAL: <hal.cc/daqAllEvents:L1674> _testboard->Daq_MemReset() is not available in this firmware.
+[13:43:19.845]     INFO: 655360 events read in total (19323ms).
+[13:43:19.856]     INFO: Test took 20185ms.
+[13:43:20.054]     INFO: dac dac scan done no problems seen
+[13:43:32.540]    QUIET: Connection to board 72 closed.

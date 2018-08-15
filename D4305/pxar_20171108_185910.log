@@ -1,0 +1,72 @@
+[18:59:05.690]     INFO: *** Welcome to pxar ***
+[18:59:05.690]     INFO: *** Today: 2017/11/08
+[18:59:05.700]     INFO: *** Version: v2.7.6-38-g63c3
+[18:59:05.700]     INFO: readRocDacs: ../../conf/D4305//dacParameters_C0.dat .. ../../conf/D4305//dacParameters_C15.dat
+[18:59:05.700]     INFO: readTbmDacs: ../../conf/D4305//tbmParameters_C0a.dat .. ../../conf/D4305//tbmParameters_C0b.dat
+[18:59:05.701]     INFO: readMaskFile: ../../conf/D4305//defaultMaskFile.dat
+[18:59:05.701]     INFO: readTrimFile: ../../conf/D4305//trimParameters_C0.dat .. ../../conf/D4305//trimParameters_C15.dat
+[18:59:05.734]     INFO:         clk: 4
+[18:59:05.734]     INFO:         ctr: 4
+[18:59:05.734]     INFO:         sda: 19
+[18:59:05.734]     INFO:         tin: 9
+[18:59:05.734]     INFO:         level: 15
+[18:59:05.734]     INFO:         triggerdelay: 0
+[18:59:05.734]    QUIET: Instanciating API for pxar v2.7.6+38~g63c3246
+[18:59:05.734]     INFO: Log level: INFO
+[18:59:05.745]    QUIET: Connection to board DTB_WS65DL opened.
+[18:59:05.748]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    72
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WS65DL
+MAC address: 40D855118048
+Hostname:    pixelDTB072
+Comment:     
+------------------------------------------------------
+[18:59:05.751]     INFO: RPC call hashes of host and DTB match: 447413373
+[18:59:06.583] CRITICAL: <hal.cc/setTestboardDelays:L164> _testboard->Deser400_SetPhaseAutoAll() not available in this firmware.
+[18:59:06.851]  WARNING: Pixel 44, 58 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 47, 31 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 48, 30 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 48, 31 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 48, 32 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 49, 29 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 49, 30 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 49, 31 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 49, 32 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 50, 30 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 50, 31 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 50, 32 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 51, 29 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 51, 30 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 51, 31 trim value 16 exceeds limit. Set to 15.
+[18:59:06.851]  WARNING: Pixel 51, 32 trim value 16 exceeds limit. Set to 15.
+[18:59:07.368]     INFO: DUT info: 
+[18:59:07.369]     INFO: The DUT currently contains the following objects:
+[18:59:07.369]     INFO:  2 TBM Cores tbm08c (2 ON)
+[18:59:07.369]     INFO: 	TBM Core alpha (0): 7 registers set
+[18:59:07.369]     INFO: 	TBM Core beta  (1): 7 registers set
+[18:59:07.369]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[18:59:07.369]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.369]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[18:59:07.770]     INFO: enter 'restricted' command line mode
+[18:59:07.770]     INFO: enter test to run
+[18:59:10.425]     INFO:   test: q no parameter change
+[18:59:10.432]    QUIET: Connection to board 72 closed.
+[18:59:10.460]     INFO: pXar: this is the end, my friend

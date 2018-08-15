@@ -1,0 +1,56 @@
+[10:40:40.140]     INFO: *** Welcome to pxar ***
+[10:40:40.140]     INFO: *** Today: 2017/11/07
+[10:40:41.171]     INFO: *** Version: v2.7.6-26-g6176
+[10:40:41.172]     INFO: readRocDacs: ../../../testbeam/testbeam-configs/D4294/dacParameters_C0.dat .. ../../../testbeam/testbeam-configs/D4294/dacParameters_C15.dat
+[10:40:41.173]     INFO: readTbmDacs: ../../../testbeam/testbeam-configs/D4294/tbmParameters_C0a.dat .. ../../../testbeam/testbeam-configs/D4294/tbmParameters_C0b.dat
+[10:40:41.173]     INFO: readMaskFile: ../../../testbeam/testbeam-configs/D4294/defaultMaskFile.dat
+[10:40:41.173]     INFO: readTrimFile: ../../../testbeam/testbeam-configs/D4294/trimParameters_C0.dat .. ../../../testbeam/testbeam-configs/D4294/trimParameters_C15.dat
+[10:40:41.262]     INFO:         clk: 4
+[10:40:41.262]     INFO:         ctr: 4
+[10:40:41.262]     INFO:         sda: 19
+[10:40:41.262]     INFO:         tin: 9
+[10:40:41.262]     INFO:         level: 15
+[10:40:41.262]     INFO:         triggerdelay: 0
+[10:40:41.262]    QUIET: Instanciating API for pxar v2.7.6+26~g6176e73
+[10:40:41.262]     INFO: Log level: INFO
+[10:40:41.275]    QUIET: Connection to board DTB_WS6K9F opened.
+[10:40:41.278]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    76
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WS6K9F
+MAC address: 40D85511804C
+Hostname:    pixelDTB076
+Comment:     
+------------------------------------------------------
+[10:40:41.281]  WARNING: RPC Call hashes of DTB and Host do not match!
+[10:40:41.342]    ERROR: <rpc_calls.h/RpcLink:L74> Missing DTB functions:
+[10:40:41.342]    ERROR: <rpc_calls.h/RpcLink:L78> bool GetPixelAddressInverted();
+[10:40:41.343]    ERROR: <rpc_calls.h/RpcLink:L78> void SetPixelAddressInverted(bool);
+[10:40:41.343]    ERROR: <rpc_calls.h/RpcLink:L78> int32_t CountReadouts(int32_t);
+[10:40:41.344]    ERROR: <rpc_calls.h/RpcLink:L78> int32_t CountReadouts(int32_t, int32_t);
+[10:40:41.345]    ERROR: <rpc_calls.h/RpcLink:L78> int32_t CountReadouts(int32_t, int32_t, int32_t);
+[10:40:41.345]    ERROR: <rpc_calls.h/RpcLink:L78> int32_t PH(int32_t, int32_t, int32_t, int16_t);
+[10:40:41.346]    ERROR: <rpc_calls.h/RpcLink:L78> int32_t PixelThreshold(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool, bool);
+[10:40:41.347]    ERROR: <rpc_calls.h/RpcLink:L78> bool test_pixel_address(int32_t, int32_t);
+[10:40:41.347]    ERROR: <rpc_calls.h/RpcLink:L78> int8_t CalibratePixel(int16_t, int16_t, int16_t, int16_t&, int32_t&);
+[10:40:41.348]    ERROR: <rpc_calls.h/RpcLink:L78> int8_t CalibrateDacScan(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, vectorR<int16_t>&, vectorR<int32_t>&);
+[10:40:41.349]    ERROR: <rpc_calls.h/RpcLink:L78> int8_t CalibrateDacDacScan(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, vectorR<int16_t>&, vectorR<int32_t>&);
+[10:40:41.350]    ERROR: <rpc_calls.h/RpcLink:L78> int16_t CalibrateMap(int16_t, vectorR<int16_t>&, vectorR<int32_t>&, vectorR<uint32_t>&);
+[10:40:41.350]    ERROR: <rpc_calls.h/RpcLink:L78> int16_t TriggerRow(int16_t, int16_t, vector<int16_t>&, int16_t);
+[10:40:41.367] CRITICAL: <hal.cc/CheckCompatibility:L408> Please update your DTB with the correct flash file.
+[10:40:41.368] CRITICAL: <hal.cc/CheckCompatibility:L409> Get Firmware v4.2 from https://github.com/psi46/pixel-dtb-firmware/tree/master/FLASH
+[10:40:41.369]    ERROR: <hal.cc/status:L107> Testboard not initialized yet!
+[10:40:41.369]    ERROR: <hal.cc/status:L107> Testboard not initialized yet!
+[10:40:41.370]    ERROR: <hal.cc/status:L107> Testboard not initialized yet!
+[10:40:41.370]    ERROR: <hal.cc/status:L107> Testboard not initialized yet!
+[10:40:41.370]    ERROR: <hal.cc/status:L107> Testboard not initialized yet!
+[10:40:41.370]     INFO: DUT info: 
+[10:40:41.370]    ERROR: <dut.cc/status:L598> DUT structure not initialized/programmed yet!
+[10:40:41.783]     INFO: enter 'restricted' command line mode
+[10:40:41.783]     INFO: enter test to run
+[10:40:57.446]     INFO:   test: q no parameter change
+[10:40:57.502]    QUIET: Connection to board 76 closed.
+[10:40:57.581]     INFO: pXar: this is the end, my friend

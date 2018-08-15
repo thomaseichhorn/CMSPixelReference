@@ -1,0 +1,57 @@
+[13:07:13.147]     INFO: *** Welcome to pxar ***
+[13:07:13.147]     INFO: *** Today: 2017/11/08
+[13:07:13.170]     INFO: *** Version: v2.7.6-38-g63c3
+[13:07:13.170]     INFO: readRocDacs: ../../conf/D4139//dacParameters_C0.dat .. ../../conf/D4139//dacParameters_C15.dat
+[13:07:13.171]     INFO: readTbmDacs: ../../conf/D4139//tbmParameters_C0a.dat .. ../../conf/D4139//tbmParameters_C0b.dat
+[13:07:13.171]     INFO: readMaskFile: ../../conf/D4139//defaultMaskFile.dat
+[13:07:13.171]     INFO: readTrimFile: ../../conf/D4139//trimParameters_C0.dat .. ../../conf/D4139//trimParameters_C15.dat
+[13:07:13.206]     INFO:         clk: 4
+[13:07:13.206]     INFO:         ctr: 4
+[13:07:13.206]     INFO:         sda: 19
+[13:07:13.206]     INFO:         tin: 9
+[13:07:13.206]     INFO:         level: 15
+[13:07:13.206]     INFO:         triggerdelay: 0
+[13:07:13.206]     INFO:         triggerlatency: 73
+[13:07:13.206]    QUIET: Instanciating API for pxar v2.7.6+38~g63c3246
+[13:07:13.206]     INFO: Log level: INFO
+[13:07:13.218]    QUIET: Connection to board DTB_WS65DL opened.
+[13:07:13.222]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    72
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WS65DL
+MAC address: 40D855118048
+Hostname:    pixelDTB072
+Comment:     
+------------------------------------------------------
+[13:07:13.225]     INFO: RPC call hashes of host and DTB match: 447413373
+[13:07:14.056] CRITICAL: <hal.cc/setTestboardDelays:L164> _testboard->Deser400_SetPhaseAutoAll() not available in this firmware.
+[13:07:14.877]     INFO: DUT info: 
+[13:07:14.878]     INFO: The DUT currently contains the following objects:
+[13:07:14.878]     INFO:  2 TBM Cores tbm08c (2 ON)
+[13:07:14.878]     INFO: 	TBM Core alpha (0): 6 registers set
+[13:07:14.878]     INFO: 	TBM Core beta  (1): 6 registers set
+[13:07:14.878]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[13:07:14.878]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:14.878]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:07:15.279]     INFO: enter 'restricted' command line mode
+[13:07:15.279]     INFO: enter test to run
+[13:07:20.040]     INFO:   test: q no parameter change
+[13:07:20.052]    QUIET: Connection to board 72 closed.
+[13:07:20.080]     INFO: pXar: this is the end, my friend

@@ -1,0 +1,115 @@
+[13:24:29.997]     INFO: *** Welcome to pxar ***
+[13:24:29.997]     INFO: *** Today: 2016/11/11
+[13:24:30.008]     INFO: *** Version: v2.7.6-64-ga6818-dirty
+[13:24:30.008]     INFO: readRocDacs: /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C15.dat
+[13:24:30.009]     INFO: readTbmDacs: /home/schuep/testbeam/testbeam-configs/D4294//tbmParameters_C0a.dat .. /home/schuep/testbeam/testbeam-configs/D4294//tbmParameters_C0b.dat
+[13:24:30.009]     INFO: readMaskFile: /home/schuep/testbeam/testbeam-configs/D4294//defaultMaskFile.dat
+[13:24:30.009]     INFO: readTrimFile: /home/schuep/testbeam/testbeam-configs/D4294//trimParameters_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//trimParameters_C15.dat
+[13:24:30.132]     INFO:         clk: 4
+[13:24:30.132]     INFO:         ctr: 4
+[13:24:30.132]     INFO:         sda: 19
+[13:24:30.132]     INFO:         tin: 9
+[13:24:30.132]     INFO:         level: 15
+[13:24:30.132]     INFO:         triggerdelay: 0
+[13:24:30.132]    QUIET: Instanciating API for pxar v2.7.6+63~g0a706f8
+[13:24:30.132]     INFO: Log level: INFO
+[13:24:30.142]    QUIET: Connection to board DTB_WS6RCR opened.
+[13:24:30.144]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    79
+HW version:  DTB1.2
+FW version:  4.6
+SW version:  4.7
+Options:     LCDS2
+USB id:      DTB_WS6RCR
+MAC address: 40D85511804F
+Hostname:    pixelDTB079
+Comment:     
+------------------------------------------------------
+[13:24:30.146]     INFO: RPC call hashes of host and DTB match: 486171790
+[13:24:31.767]     INFO: DUT info: 
+[13:24:31.767]     INFO: The DUT currently contains the following objects:
+[13:24:31.767]     INFO:  2 TBM Cores tbm08c (2 ON)
+[13:24:31.767]     INFO: 	TBM Core alpha (0): 7 registers set
+[13:24:31.767]     INFO: 	TBM Core beta  (1): 7 registers set
+[13:24:31.768]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[13:24:31.768]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:31.768]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:24:33.227]     INFO: PixTestCmd::init()
+[13:24:33.261]     INFO: readGainPedestalParameters /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C15.dat
+[13:24:33.261]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:24:33.313]     INFO: readReadbackCal: /home/schuep/testbeam/testbeam-configs/D4294//readbackCal_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//readbackCal_C15.dat
+[13:24:33.313]     INFO: readGainPedestalParameters /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C15.dat
+[13:24:33.313]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:24:33.343]     INFO: readGainPedestalParameters /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat .. /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C15.dat
+[13:24:33.343]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L1005> cannot open /home/schuep/testbeam/testbeam-configs/D4294//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:24:40.641]     INFO: ######################################################################
+[13:24:40.641]     INFO: PixTestPretest::doTest()
+[13:24:40.641]     INFO: ######################################################################
+[13:24:40.642]     INFO:    ----------------------------------------------------------------------
+[13:24:40.642]     INFO:    PixTestPretest::programROC() 
+[13:24:40.642]     INFO:    ----------------------------------------------------------------------
+[13:24:58.700]     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[13:24:58.700]     INFO: IA differences per ROC:  20.9 19.3 18.5 20.1 19.3 18.5 20.1 19.3 20.1 19.3 20.1 17.7 20.9 19.3 20.9 18.5
+[13:24:58.852]     INFO:    ----------------------------------------------------------------------
+[13:24:58.852]     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[13:24:58.852]     INFO:    ----------------------------------------------------------------------
+[13:25:04.480]     INFO: PixTestPretest::setVana() done, Module Ia 391.5 mA = 24.4688 mA/ROC
+[13:25:04.480]     INFO: i(loss) [mA/ROC]:     21.7  20.9  20.9  21.7  20.9  20.9  20.9  21.7  20.1  20.1  20.9  20.9  20.9  20.9  20.9  20.9
+[13:25:04.537]     INFO:    ----------------------------------------------------------------------
+[13:25:04.537]     INFO:    PixTestPretest::findTiming() 
+[13:25:04.537]     INFO:    ----------------------------------------------------------------------
+[13:25:04.537]     INFO: PixTestCmd::init()
+[13:25:05.055]  WARNING: Not unmasking DUT, not setting Calibrate bits!
+[13:25:27.818]     INFO: TBM phases:  160MHz: 7, 400MHz: 2, TBM delays: ROC(0/1):4, header/trailer: 1, token: 1
+[13:25:27.819]     INFO: (success/tries = 100/100), width = 5
+[13:25:27.835]     INFO:    ----------------------------------------------------------------------
+[13:25:27.835]     INFO:    PixTestPretest::findWorkingPixel()
+[13:25:27.835]     INFO:    ----------------------------------------------------------------------
+[13:25:27.929]     INFO: Expecting 231680 events.
+[13:25:36.457]     INFO: 231680 events read in total (7972ms).
+[13:25:36.467]     INFO: Test took 8629ms.
+[13:25:38.153]     INFO: Found working pixel in all ROCs: col/row = 12/22
+[13:25:38.309]     INFO:    ----------------------------------------------------------------------
+[13:25:38.309]     INFO:    PixTestPretest::setVthrCompCalDel()
+[13:25:38.309]     INFO:    ----------------------------------------------------------------------
+[13:25:38.404]     INFO: Expecting 231680 events.
+[13:25:46.991]     INFO: 231680 events read in total (8031ms).
+[13:25:46.001]     INFO: Test took 8685ms.
+[13:25:48.165]     INFO: PixTestPretest::setVthrCompCalDel() done
+[13:25:48.165]     INFO: CalDel:      138   114   142   123   111   119   131   145   128   126   131   123   138   125   133   114
+[13:25:48.165]     INFO: VthrComp:     67    70    68    71    67    63    65    66    72    66    67    62    78    70    68    67
+[13:25:48.235]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C0.dat
+[13:25:48.235]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C1.dat
+[13:25:48.235]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C2.dat
+[13:25:48.235]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C3.dat
+[13:25:48.235]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C4.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C5.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C6.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C7.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C8.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C9.dat
+[13:25:48.236]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C10.dat
+[13:25:48.237]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C11.dat
+[13:25:48.237]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C12.dat
+[13:25:48.237]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C13.dat
+[13:25:48.237]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C14.dat
+[13:25:48.237]     INFO: write dac parameters into /home/schuep/testbeam/testbeam-configs/D4294//dacParameters_C15.dat
+[13:25:48.237]     INFO: write tbm parameters into /home/schuep/testbeam/testbeam-configs/D4294//tbmParameters_C0a.dat
+[13:25:48.238]     INFO: write tbm parameters into /home/schuep/testbeam/testbeam-configs/D4294//tbmParameters_C0b.dat
+[13:25:48.238]     INFO: PixTestPretest::doTest() done, duration: 67 seconds
+[13:26:50.043]    QUIET: Connection to board 79 closed.
